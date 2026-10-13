@@ -12,5 +12,5 @@ function paridade($x)
     else 
         echo "<br>$x é ímpar";
 }
-paridade(300);
+paridade(500);
 ?> 

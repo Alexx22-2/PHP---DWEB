@@ -15,11 +15,12 @@ if (is_dir($pasta)) {
 }
 if (move_uploaded_file($d['tmp_name'], $pasta . $d['name'])) {
     echo "Ficheiro guardado em $destino";
+    
 }else{
     echo "Falha ao enviar o ficheiro.";
 }
-}
-else{
+
+}else{
     echo "Acesso inválido.";
 }
 ?>
